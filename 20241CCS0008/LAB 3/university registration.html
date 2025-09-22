@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>University Student Registration Form</title>
+</head>
+<body bgcolor="lavender">
+
+    <h2 align="center">University Student Registration Form</h2>
+    <hr>
+
+    <form align="center">
+        <p>
+            Name: <input type="text" name="name">
+        </p>
+
+        <p>
+            Mobile Number: <input type="text" name="mobile">
+        </p>
+
+        <p>
+            Email ID: <input type="email" name="email">
+        </p>
+
+        <p>
+            Place: <input type="text" name="place">
+        </p>
+
+        <p>
+            Gender: 
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="female"> Female
+            <input type="radio" name="gender" value="other"> Other
+        </p>
+
+        <p>
+            Date of Birth: <input type="date" name="dob">
+        </p>
+
+        <p>
+            Department:
+            <select name="department">
+                <option value="cse">CSE</option>
+                <option value="ece">ECE</option>
+                <option value="eee">EEE</option>
+                <option value="mech">MECH</option>
+                <option value="civil">CIVIL</option>
+            </select>
+        </p>
+
+        <p>
+            Address:<br>
+            <textarea rows="4" cols="40" name="address"></textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="Register">
+            <input type="reset" value="Clear">
+        </p>
+    </form>
+
+</body>
+</html>
